@@ -40,7 +40,7 @@ void main(List<String> arguments) {
 
   print(person['age']);
 
-  print(score);
+  print('Le score de math de James est : ${person['notes'][0]}');
   print(exponents);
   // NOTE: Tout les type de donnée en dart sont des Object.
 }
