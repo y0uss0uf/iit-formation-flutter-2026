@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsbasic/article/article_detail_page.dart';
 import 'package:widgetsbasic/article/article_model.dart';
 
+//// PAGE 1
 class ArticlesPage extends StatelessWidget {
   const ArticlesPage({super.key});
 
@@ -9,6 +11,22 @@ class ArticlesPage extends StatelessWidget {
     final size = MediaQuery.of(context).size;
 
     return Scaffold(
+      bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.blue,
+        unselectedItemColor: Colors.grey,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
+        currentIndex: 0,
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.store), label: 'Store'),
+          BottomNavigationBarItem(icon: Icon(Icons.newspaper), label: 'News'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.settings),
+            label: 'Settings',
+          ),
+        ],
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -47,27 +65,38 @@ class ArticlesPage extends StatelessWidget {
                   itemCount: DummyData.listArticles.length, //6
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
-                    print(
-                      '========================== $index --- tableau  ${DummyData.listArticles[index].urlToImage}',
-                    );
-
+                    ///
+                    ///
                     return Container(
                       margin: EdgeInsets.symmetric(horizontal: 10),
                       width: size.width * .85,
                       child: Stack(
                         children: [
-                          Container(
-                            // height: 300,
-                            // width: size.width * .8,
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                image: AssetImage(
-                                  // 'images/articles/article_1.jpeg',
-                                  DummyData.listArticles[index].urlToImage,
+                          InkWell(
+                            onTap: () {
+                              print(
+                                'article : ${DummyData.listArticles[index]}',
+                              );
+
+                              final article = DummyData.listArticles[index];
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => ArticleDetail(article),
                                 ),
-                                fit: BoxFit.cover,
+                              );
+                            },
+                            child: Container(
+                              height: 300,
+                              width: size.width * .8,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage(
+                                    DummyData.listArticles[index].urlToImage,
+                                  ),
+                                  fit: BoxFit.cover,
+                                ),
+                                borderRadius: BorderRadius.circular(25),
                               ),
-                              borderRadius: BorderRadius.circular(25),
                             ),
                           ),
 
