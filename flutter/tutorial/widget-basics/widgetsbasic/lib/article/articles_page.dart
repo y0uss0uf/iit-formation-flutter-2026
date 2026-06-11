@@ -79,6 +79,7 @@ class ArticlesPage extends StatelessWidget {
                               );
 
                               final article = DummyData.listArticles[index];
+                              
                               Navigator.of(context).push(
                                 MaterialPageRoute(
                                   builder: (context) => ArticleDetail(article),

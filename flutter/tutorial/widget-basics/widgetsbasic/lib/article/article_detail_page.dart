@@ -34,7 +34,7 @@ class ArticleDetail extends StatelessWidget {
                   width: size.width * 1,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage(article.urlToImage),
+                      image: AssetImage(article.urlToImage),
                       fit: BoxFit.cover,
                     ),
                   ),
