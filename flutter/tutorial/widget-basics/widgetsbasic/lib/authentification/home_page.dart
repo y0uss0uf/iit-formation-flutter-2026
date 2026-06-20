@@ -4,8 +4,15 @@ import 'package:widgetsbasic/navigation/page_a.dart';
 import 'package:widgetsbasic/navigation/page_c.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({required this.email, super.key});
+  const HomePage({
+    required this.email,
+    super.key,
+    required this.nom,
+    required this.prenom,
+  });
 
+  final String nom;
+  final String prenom;
   final String email;
 
   static const TextStyle optionStyle = TextStyle(
@@ -22,16 +29,28 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
-    _pages = <Widget>[PageA(), PageC(), ProfilePage(email: widget.email)];
+    _pages = <Widget>[
+      PageA(), // INDEX 0
+      PageC(), // INDEX 1
+      ProfilePage(
+        email: widget.email,
+        nom: widget.nom,
+        prenom: widget.prenom,
+      ), // INDEX 2
+    ];
+
     super.initState();
   }
 
   int _selectedIndex = 0;
 
   void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
+    _selectedIndex = index;
+    setState(() {});
+
+    // setState(() {
+    //   _selectedIndex = index;
+    // });
   }
 
   @override
@@ -39,6 +58,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       // appBar: AppBar(title: const Text('Page Accueil')),
+      // body: Center(child: _pages[_selectedIndex]),
       body: Center(child: _pages.elementAt(_selectedIndex)),
 
       bottomNavigationBar: BottomNavigationBar(

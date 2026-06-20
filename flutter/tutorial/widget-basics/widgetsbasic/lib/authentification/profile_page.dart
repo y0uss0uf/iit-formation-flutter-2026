@@ -2,8 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:widgetsbasic/authentification/login_page.dart';
 
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({super.key, required this.email});
+  const ProfilePage({
+    super.key,
+    required this.email,
+    required this.nom,
+    required this.prenom,
+  });
 
+  final String nom;
+  final String prenom;
   final String email;
 
   @override
@@ -12,13 +19,16 @@ class ProfilePage extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Text(
-              'je suis connecté',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+            Column(
+              children: [
+                CircleAvatar(radius: 50),
+                SizedBox(height: 20),
+                Text('$nom $prenom', style: TextStyle(fontSize: 21)),
+                Text(email, style: TextStyle(fontSize: 18)),
+              ],
             ),
-            Text(email, style: TextStyle(fontSize: 35)),
 
             TextButton(
               onPressed: () {

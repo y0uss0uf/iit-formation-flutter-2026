@@ -73,11 +73,18 @@ class _LoginPageState extends State<LoginPage> {
                             controller: _emailController,
                             keyboardType: TextInputType.emailAddress,
                             validator: (value) {
-                              if (value == null ||
-                                  value.isEmpty ||
-                                  !value.contains('@')) {
+                              if (value == null || value.isEmpty) {
                                 return 'Email obligatoire ou email pas correcte';
                               }
+
+                              final emailRegex = RegExp(
+                                r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$',
+                              );
+
+                              if (!emailRegex.hasMatch(value.trim())) {
+                                return 'Adresse email invalide';
+                              }
+
                               return null;
                             },
                             decoration: InputDecoration(
@@ -153,10 +160,16 @@ class _LoginPageState extends State<LoginPage> {
                           if (_formKey.currentState?.validate() == true) {
                             print('Formulaire valide');
 
+                            /// API -> BD -> EXISTE OU NON 
+                            /// SI EXISTE => 
+
                             Navigator.of(context).pushReplacement(
                               MaterialPageRoute(
-                                builder: (context) =>
-                                    HomePage(email: _emailController.text),
+                                builder: (context) => HomePage(
+                                  email: _emailController.text,
+                                  nom: 'N\'GUESSAN',
+                                  prenom: 'OTHNIEL CHARLE',
+                                ),
                               ),
                             );
                           } else {

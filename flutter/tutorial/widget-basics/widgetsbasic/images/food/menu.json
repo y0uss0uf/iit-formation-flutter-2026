@@ -1,0 +1,1229 @@
+{
+  "categories": [
+    {
+      "name": "Burger",
+      "items": [
+        {
+          "id": 101,
+          "title": "Classic Beef Burger",
+          "description": "Classic Beef Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 3500,
+          "preparationTime": 20,
+          "image": "assets/images/burgers/classic_beef_burger.jpg",
+          "rating": 4.1,
+          "reviewCount": 60,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "title": "Chicken Burger",
+          "description": "Chicken Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 4000,
+          "preparationTime": 5,
+          "image": "assets/images/burgers/chicken_burger.jpg",
+          "rating": 4.2,
+          "reviewCount": 70,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "title": "Double Cheese Burger",
+          "description": "Double Cheese Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 4500,
+          "preparationTime": 8,
+          "image": "assets/images/burgers/double_cheese_burger.jpg",
+          "rating": 4.3,
+          "reviewCount": 80,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "title": "BBQ Burger",
+          "description": "BBQ Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 5000,
+          "preparationTime": 11,
+          "image": "assets/images/burgers/bbq_burger.jpg",
+          "rating": 4.4,
+          "reviewCount": 90,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "title": "Spicy Burger",
+          "description": "Spicy Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 5500,
+          "preparationTime": 14,
+          "image": "assets/images/burgers/spicy_burger.jpg",
+          "rating": 4.5,
+          "reviewCount": 100,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "title": "Mushroom Burger",
+          "description": "Mushroom Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 6000,
+          "preparationTime": 17,
+          "image": "assets/images/burgers/mushroom_burger.jpg",
+          "rating": 4.6,
+          "reviewCount": 110,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "title": "Bacon Burger",
+          "description": "Bacon Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 6500,
+          "preparationTime": 20,
+          "image": "assets/images/burgers/bacon_burger.jpg",
+          "rating": 4.7,
+          "reviewCount": 120,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "title": "Avocado Burger",
+          "description": "Avocado Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 7000,
+          "preparationTime": 5,
+          "image": "assets/images/burgers/avocado_burger.jpg",
+          "rating": 4.8,
+          "reviewCount": 130,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "title": "Fish Burger",
+          "description": "Fish Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 7500,
+          "preparationTime": 8,
+          "image": "assets/images/burgers/fish_burger.jpg",
+          "rating": 4.9,
+          "reviewCount": 140,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 110,
+          "title": "Veggie Burger",
+          "description": "Veggie Burger préparé avec des ingrédients frais et de qualité.",
+          "price": 3000,
+          "preparationTime": 11,
+          "image": "assets/images/burgers/veggie_burger.jpg",
+          "rating": 4.0,
+          "reviewCount": 150,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "items": [
+        {
+          "id": 201,
+          "title": "Margherita",
+          "description": "Margherita préparé avec des ingrédients frais et de qualité.",
+          "price": 3500,
+          "preparationTime": 14,
+          "image": "assets/images/pizzas/margherita.jpg",
+          "rating": 4.1,
+          "reviewCount": 60,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "title": "Pepperoni",
+          "description": "Pepperoni préparé avec des ingrédients frais et de qualité.",
+          "price": 4000,
+          "preparationTime": 17,
+          "image": "assets/images/pizzas/pepperoni.jpg",
+          "rating": 4.2,
+          "reviewCount": 70,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 203,
+          "title": "Hawaiian",
+          "description": "Hawaiian préparé avec des ingrédients frais et de qualité.",
+          "price": 4500,
+          "preparationTime": 20,
+          "image": "assets/images/pizzas/hawaiian.jpg",
+          "rating": 4.3,
+          "reviewCount": 80,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 204,
+          "title": "Four Cheese",
+          "description": "Four Cheese préparé avec des ingrédients frais et de qualité.",
+          "price": 5000,
+          "preparationTime": 5,
+          "image": "assets/images/pizzas/four_cheese.jpg",
+          "rating": 4.4,
+          "reviewCount": 90,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 205,
+          "title": "Vegetarian",
+          "description": "Vegetarian préparé avec des ingrédients frais et de qualité.",
+          "price": 5500,
+          "preparationTime": 8,
+          "image": "assets/images/pizzas/vegetarian.jpg",
+          "rating": 4.5,
+          "reviewCount": 100,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 206,
+          "title": "BBQ Chicken",
+          "description": "BBQ Chicken préparé avec des ingrédients frais et de qualité.",
+          "price": 6000,
+          "preparationTime": 11,
+          "image": "assets/images/pizzas/bbq_chicken.jpg",
+          "rating": 4.6,
+          "reviewCount": 110,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 207,
+          "title": "Seafood",
+          "description": "Seafood préparé avec des ingrédients frais et de qualité.",
+          "price": 6500,
+          "preparationTime": 14,
+          "image": "assets/images/pizzas/seafood.jpg",
+          "rating": 4.7,
+          "reviewCount": 120,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 208,
+          "title": "Mexican",
+          "description": "Mexican préparé avec des ingrédients frais et de qualité.",
+          "price": 7000,
+          "preparationTime": 17,
+          "image": "assets/images/pizzas/mexican.jpg",
+          "rating": 4.8,
+          "reviewCount": 130,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 209,
+          "title": "Meat Lovers",
+          "description": "Meat Lovers préparé avec des ingrédients frais et de qualité.",
+          "price": 7500,
+          "preparationTime": 20,
+          "image": "assets/images/pizzas/meat_lovers.jpg",
+          "rating": 4.9,
+          "reviewCount": 140,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 210,
+          "title": "Supreme",
+          "description": "Supreme préparé avec des ingrédients frais et de qualité.",
+          "price": 3000,
+          "preparationTime": 5,
+          "image": "assets/images/pizzas/supreme.jpg",
+          "rating": 4.0,
+          "reviewCount": 150,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Salade",
+      "items": [
+        {
+          "id": 301,
+          "title": "Caesar Salad",
+          "description": "Caesar Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 3500,
+          "preparationTime": 8,
+          "image": "assets/images/salads/caesar_salad.jpg",
+          "rating": 4.1,
+          "reviewCount": 60,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 302,
+          "title": "Greek Salad",
+          "description": "Greek Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 4000,
+          "preparationTime": 11,
+          "image": "assets/images/salads/greek_salad.jpg",
+          "rating": 4.2,
+          "reviewCount": 70,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 303,
+          "title": "Garden Salad",
+          "description": "Garden Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 4500,
+          "preparationTime": 14,
+          "image": "assets/images/salads/garden_salad.jpg",
+          "rating": 4.3,
+          "reviewCount": 80,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 304,
+          "title": "Tuna Salad",
+          "description": "Tuna Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 5000,
+          "preparationTime": 17,
+          "image": "assets/images/salads/tuna_salad.jpg",
+          "rating": 4.4,
+          "reviewCount": 90,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 305,
+          "title": "Avocado Salad",
+          "description": "Avocado Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 5500,
+          "preparationTime": 20,
+          "image": "assets/images/salads/avocado_salad.jpg",
+          "rating": 4.5,
+          "reviewCount": 100,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 306,
+          "title": "Chicken Salad",
+          "description": "Chicken Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 6000,
+          "preparationTime": 5,
+          "image": "assets/images/salads/chicken_salad.jpg",
+          "rating": 4.6,
+          "reviewCount": 110,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 307,
+          "title": "Quinoa Salad",
+          "description": "Quinoa Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 6500,
+          "preparationTime": 8,
+          "image": "assets/images/salads/quinoa_salad.jpg",
+          "rating": 4.7,
+          "reviewCount": 120,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 308,
+          "title": "Fruit Salad",
+          "description": "Fruit Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 7000,
+          "preparationTime": 11,
+          "image": "assets/images/salads/fruit_salad.jpg",
+          "rating": 4.8,
+          "reviewCount": 130,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 309,
+          "title": "Mediterranean Salad",
+          "description": "Mediterranean Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 7500,
+          "preparationTime": 14,
+          "image": "assets/images/salads/mediterranean_salad.jpg",
+          "rating": 4.9,
+          "reviewCount": 140,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 310,
+          "title": "Cobb Salad",
+          "description": "Cobb Salad préparé avec des ingrédients frais et de qualité.",
+          "price": 3000,
+          "preparationTime": 17,
+          "image": "assets/images/salads/cobb_salad.jpg",
+          "rating": 4.0,
+          "reviewCount": 150,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "items": [
+        {
+          "id": 401,
+          "title": "Chocolate Lava Cake",
+          "description": "Chocolate Lava Cake préparé avec des ingrédients frais et de qualité.",
+          "price": 3500,
+          "preparationTime": 20,
+          "image": "assets/images/desserts/chocolate_lava_cake.jpg",
+          "rating": 4.1,
+          "reviewCount": 60,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 402,
+          "title": "Cheesecake",
+          "description": "Cheesecake préparé avec des ingrédients frais et de qualité.",
+          "price": 4000,
+          "preparationTime": 5,
+          "image": "assets/images/desserts/cheesecake.jpg",
+          "rating": 4.2,
+          "reviewCount": 70,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 403,
+          "title": "Tiramisu",
+          "description": "Tiramisu préparé avec des ingrédients frais et de qualité.",
+          "price": 4500,
+          "preparationTime": 8,
+          "image": "assets/images/desserts/tiramisu.jpg",
+          "rating": 4.3,
+          "reviewCount": 80,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 404,
+          "title": "Brownie",
+          "description": "Brownie préparé avec des ingrédients frais et de qualité.",
+          "price": 5000,
+          "preparationTime": 11,
+          "image": "assets/images/desserts/brownie.jpg",
+          "rating": 4.4,
+          "reviewCount": 90,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 405,
+          "title": "Apple Pie",
+          "description": "Apple Pie préparé avec des ingrédients frais et de qualité.",
+          "price": 5500,
+          "preparationTime": 14,
+          "image": "assets/images/desserts/apple_pie.jpg",
+          "rating": 4.5,
+          "reviewCount": 100,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 406,
+          "title": "Crème Brûlée",
+          "description": "Crème Brûlée préparé avec des ingrédients frais et de qualité.",
+          "price": 6000,
+          "preparationTime": 17,
+          "image": "assets/images/desserts/crème_brûlée.jpg",
+          "rating": 4.6,
+          "reviewCount": 110,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 407,
+          "title": "Ice Cream Sundae",
+          "description": "Ice Cream Sundae préparé avec des ingrédients frais et de qualité.",
+          "price": 6500,
+          "preparationTime": 20,
+          "image": "assets/images/desserts/ice_cream_sundae.jpg",
+          "rating": 4.7,
+          "reviewCount": 120,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 408,
+          "title": "Panna Cotta",
+          "description": "Panna Cotta préparé avec des ingrédients frais et de qualité.",
+          "price": 7000,
+          "preparationTime": 5,
+          "image": "assets/images/desserts/panna_cotta.jpg",
+          "rating": 4.8,
+          "reviewCount": 130,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 409,
+          "title": "Donut",
+          "description": "Donut préparé avec des ingrédients frais et de qualité.",
+          "price": 7500,
+          "preparationTime": 8,
+          "image": "assets/images/desserts/donut.jpg",
+          "rating": 4.9,
+          "reviewCount": 140,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 410,
+          "title": "Chocolate Mousse",
+          "description": "Chocolate Mousse préparé avec des ingrédients frais et de qualité.",
+          "price": 3000,
+          "preparationTime": 11,
+          "image": "assets/images/desserts/chocolate_mousse.jpg",
+          "rating": 4.0,
+          "reviewCount": 150,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drink",
+      "items": [
+        {
+          "id": 501,
+          "title": "Orange Juice",
+          "description": "Orange Juice préparé avec des ingrédients frais et de qualité.",
+          "price": 3500,
+          "preparationTime": 14,
+          "image": "assets/images/drinks/orange_juice.jpg",
+          "rating": 4.1,
+          "reviewCount": 60,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 502,
+          "title": "Mango Smoothie",
+          "description": "Mango Smoothie préparé avec des ingrédients frais et de qualité.",
+          "price": 4000,
+          "preparationTime": 17,
+          "image": "assets/images/drinks/mango_smoothie.jpg",
+          "rating": 4.2,
+          "reviewCount": 70,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 503,
+          "title": "Lemonade",
+          "description": "Lemonade préparé avec des ingrédients frais et de qualité.",
+          "price": 4500,
+          "preparationTime": 20,
+          "image": "assets/images/drinks/lemonade.jpg",
+          "rating": 4.3,
+          "reviewCount": 80,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 504,
+          "title": "Iced Tea",
+          "description": "Iced Tea préparé avec des ingrédients frais et de qualité.",
+          "price": 5000,
+          "preparationTime": 5,
+          "image": "assets/images/drinks/iced_tea.jpg",
+          "rating": 4.4,
+          "reviewCount": 90,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 505,
+          "title": "Cappuccino",
+          "description": "Cappuccino préparé avec des ingrédients frais et de qualité.",
+          "price": 5500,
+          "preparationTime": 8,
+          "image": "assets/images/drinks/cappuccino.jpg",
+          "rating": 4.5,
+          "reviewCount": 100,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 506,
+          "title": "Latte",
+          "description": "Latte préparé avec des ingrédients frais et de qualité.",
+          "price": 6000,
+          "preparationTime": 11,
+          "image": "assets/images/drinks/latte.jpg",
+          "rating": 4.6,
+          "reviewCount": 110,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 507,
+          "title": "Espresso",
+          "description": "Espresso préparé avec des ingrédients frais et de qualité.",
+          "price": 6500,
+          "preparationTime": 14,
+          "image": "assets/images/drinks/espresso.jpg",
+          "rating": 4.7,
+          "reviewCount": 120,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 508,
+          "title": "Mineral Water",
+          "description": "Mineral Water préparé avec des ingrédients frais et de qualité.",
+          "price": 7000,
+          "preparationTime": 17,
+          "image": "assets/images/drinks/mineral_water.jpg",
+          "rating": 4.8,
+          "reviewCount": 130,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 509,
+          "title": "Milkshake",
+          "description": "Milkshake préparé avec des ingrédients frais et de qualité.",
+          "price": 7500,
+          "preparationTime": 20,
+          "image": "assets/images/drinks/milkshake.jpg",
+          "rating": 4.9,
+          "reviewCount": 140,
+          "available": true,
+          "tags": [
+            "classic"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "id": 510,
+          "title": "Hot Chocolate",
+          "description": "Hot Chocolate préparé avec des ingrédients frais et de qualité.",
+          "price": 3000,
+          "preparationTime": 5,
+          "image": "assets/images/drinks/hot_chocolate.jpg",
+          "rating": 4.0,
+          "reviewCount": 150,
+          "available": true,
+          "tags": [
+            "popular"
+          ],
+          "sideOptions": [
+            {
+              "name": "Extra fromage",
+              "price": 1000
+            },
+            {
+              "name": "Boisson",
+              "price": 1500
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

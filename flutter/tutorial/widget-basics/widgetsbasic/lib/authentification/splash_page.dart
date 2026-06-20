@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:widgetsbasic/authentification/login_page.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
